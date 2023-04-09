@@ -1,3 +1,4 @@
+/* Created By Hemant */
 /* Font family */
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
@@ -11,9 +12,6 @@
 }
 
 /* For smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
 
 /* CSS Variable */
 :root {
@@ -288,8 +286,8 @@ section .Our {
   font-size: 62px;
   font-weight: 600;
   -webkit-text-fill-color: transparent;
-  background-clip: content-box;
-  -webkit-background-clip: text;
+  -webkit-background-clip: content-box;
+  background-clip: text;
   animation: animate 10s linear infinite;
 }
 @keyframes animate {
@@ -503,7 +501,7 @@ section .Our {
 .title-with-button {
   display: flex;
   -webkit-box-flex: justify;
-  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -870,9 +868,6 @@ footer {
 /* Media Queries for responsiveness 
   This media queries is for tablet size screen.*/
 @media (min-width:760px) and (max-width:1030px) {
-  html {
-    scroll-behavior: smooth;
-  }
   /* Navigation */
 #navbar {
   display: flex;
